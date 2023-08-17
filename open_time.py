@@ -33,19 +33,14 @@ def get_opening_time(places, api_key, desired_date):
             }
             details_response = requests.get(details_url, params=details_params)
             details_data = details_response.json()
-            if "result" in details_data and "opening_hours" in details_data["result"]:
-                opening_hours = details_data["result"]["opening_hours"]["periods"]
+            max_name_length = max(len(place["name"]) for place in places)
 
-                desired_date_obj = datetime.strptime(desired_date, "%Y-%m-%d")
+
+            if "result" in details_data and "opening_hours" in details_data["result"]:
+                opening_hours = details_data["result"]["opening_hours"]["weekday_text"][5]
                 
-                for period in opening_hours:
-                    if "open" in period and "close" in period:
-                        open_day = period["open"]["day"]
-                        close_day = period["close"]["day"]
-                        if open_day <= close_day and open_day <= desired_date_obj.weekday() <= close_day:
-                            open_time = period["open"]["time"][:-2]
-                            close_time = period["close"]["time"][:-2]
-                            print(f"{place['name']} \t from {open_time} to {close_time}")
+                formatted_name = place["name"].ljust(max_name_length)
+                print(f"{formatted_name} from {opening_hours}")
 
         else:
             print(f"Place {place['name']} at {place['address']} not found")

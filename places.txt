@@ -4,7 +4,7 @@ GDANSK
 3.  Len - Piwna 52
 4.  Czkawka - Jana Kilinskiego 9
 5.  Lang.fuhr - Aldony 6
-6.  tyk Kawy - al. Grunwaldzka 140
+6.  lyk Kawy - al. Grunwaldzka 140
 7.  Ostoya Cafe - ul. Ogarna 124
 8.  Nieczapla - Waideloty 3A
 9.  Struskawka - Juliusza Slowackiego 19

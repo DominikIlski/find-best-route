@@ -1,0 +1,18 @@
+GDANSK
+1.  Ratuszowa - Dluga 46
+2.  Publiczna - łąkowa 35
+3.  Len - Piwna 52
+4.  Czkawka - Jana Kilinskiego 9
+5.  Lang.fuhr - Aldony 6
+6.  tyk Kawy - al. Grunwaldzka 140
+7.  Ostoya Cafe - ul. Ogarna 124
+8.  Nieczapla - Waideloty 3A
+9.  Struskawka - Juliusza Slowackiego 19
+SOPOT
+10. Las - Jerzego Haffnera 42
+GDYNIA
+11. Happy People - Swietojanska 49
+12. Hygge - Jana Kilinskiego 9
+13. Kofeina - Antoniego Abrahama 41
+14. Moze Kawy Gdynia - al. Jana Pawla II 11
+15. Tlok - Józefa Wybickiego 3
